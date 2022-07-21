@@ -1,6 +1,6 @@
 
 class UserActivityViewModel @Inject constructor(
-    private val getUserActivityScoresUseCase: getUserActivityScoresUseCase,
+    private val getUserActivityScoresUseCase: GetUserActivityScoresUseCase,
     private val getUserActivitiesUseCase: GetUserActivitiesUseCase,
 ) : BaseViewModel<UserActivityState>() {
 
